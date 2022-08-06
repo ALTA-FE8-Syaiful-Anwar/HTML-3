@@ -1,0 +1,250 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.navbar {
+    padding: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #C1C3C736;
+    opacity: 1;
+}
+
+.navbar .wrapper-menu {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 0px;
+    left: 0px;
+    width: 1233px;
+    height: 89px;
+}
+
+.logo img {
+    margin: 0 0 0 125px;
+    width: 134px;
+    height: 66px;
+}
+
+.menu {
+    font-family: 'Muli', Bold;
+    font-size: 13px;
+}
+
+.menu a:hover {
+    color: #F47522;
+}
+
+.navbar ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.navbar ul li {
+    float: left;
+    list-style-type: none;
+}
+
+.navbar ul li a {
+    color: #19345E;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+.container {
+    background-color: #FFFFFF;
+    width: 100%;
+    padding-top: 60px;
+}
+
+.wrapper-1 {
+    background-color: #F4F7FC;
+    width: 100%;
+    height: 132px;
+}
+
+.wrapper-1 h1 {
+    font-family: 'Roboto', 'Medium';
+    font-size: 40px;
+    padding-top: 45px;
+    padding-left: 195px;
+}
+
+.section {
+    padding-left: 195px;
+    color: #19345E;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.container-fluida {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    float: left;
+}
+
+.paragraf-1 p {
+    font-family: 'Roboto', 'Regular';
+    font-size: 16px;
+    text-align: left;
+    letter-spacing: 0px;
+    line-height: 20px;
+    padding-top: 30px;
+    width: 390px;
+    height: 81px;
+    float: left;
+}
+
+.paragraf-2 {
+    float: left;
+}
+
+.paragraf-2 h5 {
+    font-family: 'Muli', 'Bold';
+    font-size: 22px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+.paragraf-2 ul {
+    padding-left: 18px;
+    font-family: 'Roboto', 'Medium';
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.paragraf-2 ul p {
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 0px;
+}
+
+.paragraf-3 {
+    float: left;
+}
+
+.paragraf-3 p {
+    font-family: 'Muli', 'SemiBold';
+    font-size: 18px;
+}
+
+.paragraf-4 {
+    float: left;
+}
+
+.tabel {
+    color: #19345E;
+    border-collapse: collapse;
+}
+
+.tabel tr td {
+    font-size: 14px;
+    font-family: 'Muli', 'Regular';
+    letter-spacing: 0px;
+    border: 1px solid #707070;
+    padding: 5px 20px;
+}
+
+.image {
+    margin-top: 50px;
+    margin-left: 302px;
+    float: right;
+}
+
+.image .img-1 {
+    margin-left: 90px;
+    border-radius: 10px;
+    width: 249px;
+    height: 248px;
+}
+
+.image .img-2 {
+    float: left;
+    margin-top: -45px;
+    margin-left: 45px;
+    width: 90px;
+    height: 76px;
+    display: block;
+    content: " ";
+    position: absolute;
+}
+
+.footer-full {
+    background-color: #19345E;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    padding: 50px 50px 20px 50px;
+    margin-top: 141px;
+}
+
+.container-end {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-left {
+    width: 45%;
+    padding-left: 150px;
+}
+
+.footer-full .footer-left img {
+    width: 110px;
+    height: 50px;
+}
+
+.footer-center {
+    width: 25%;
+}
+
+.footer-center p {
+    font-family: 'SF Compact Display', 'Semibold';
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.footer-center li {
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.vertikal {
+    width: 0px; 
+    height: 78px; 
+    border: 1px #FFFFFF solid;
+}
+
+.footer-right {
+    width: 20%;
+}
+
+.footer-right p {
+    font-family: 'SF Compact Display', 'Semibold';
+    font-size: 14px;
+    color: #FFFFFF;
+    display: inline-block;
+    padding-top: 20px;
+    padding-left: 100px;
+}

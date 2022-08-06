@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.navbar {
+    padding: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #C1C3C736;
+    opacity: 1;
+}
+
+.navbar .wrapper-menu {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 0px;
+    left: 0px;
+    width: 1233px;
+    height: 89px;
+}
+
+.logo img {
+    margin: 0 0 0 125px;
+    width: 134px;
+    height: 66px;
+}
+
+.menu {
+    font-family: 'Muli', Bold;
+    font-size: 13px;
+}
+
+.menu a:hover {
+    color: #F47522;
+}
+
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+    list-style-type: none;
+}
+
+nav ul li a {
+    color: #19345E;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    background-image: url(HTML_ASSETS/bg-img.png);
+    background-size: cover;
+    width: 100%;
+}
+
+.container-fluida {
+    margin: 243px 157px 194px 125px;
+    padding: 25px 10px 10px 25px;
+    width: 100%;
+}
+
+.image {
+    width: 355px;
+    height: 355px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 300px;
+    overflow: hidden;
+    float: left;
+}
+
+.image img {
+    width: 375px;
+}
+
+.lesson {
+    float: right;
+    text-align: left;
+    padding-top: 50px;
+    padding-right: 50px;
+}
+
+.lesson h5 {
+    font-family: 'Roboto', 'Medium';
+    font-size: 25px;
+    color: #19345E;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.lesson h2 {
+    font-family: 'Roboto', 'Medium';
+    font-size: 85px;
+    color: #19345E;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.lesson h3 {
+    font-family: 'Roboto', 'Medium';
+    font-size: 35px;
+    color: #19345E;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.button {
+    padding-top: 30px;
+}
+
+.submit {
+    border: 1px solid #1A374D;
+    border-radius: 50px;
+    background-color: #ff9800;
+    color: #fff;
+    font-family: 'Roboto', 'Regular';
+    font-size: 1rem;
+    height: 48px;
+    padding: 10px 25px;
+    transition: all 1s;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: #1A374D;
+    text-decoration: none;
+}

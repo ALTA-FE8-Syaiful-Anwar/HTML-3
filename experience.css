@@ -1,0 +1,141 @@
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #C1C3C736;
+    opacity: 1;
+}
+
+.logo img {
+    margin: 0 0 0 195px;
+    width: 134px;
+    height: 66px;
+}
+
+.menu {
+    font-family: 'Muli', Bold;
+    font-size: 13px;
+    padding-right: 65px;
+}
+
+.menu a:hover {
+    color: #F47522;
+}
+
+.navbar ul li a {
+    color: #19345E;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+.px-0 {
+    width: 100%;
+    padding-top: 80px;
+}
+
+.display-4 {
+    background-color: #F4F7FC;
+    width: 100%;
+    height: 132px;
+}
+
+.px-0 .display-4 {
+    font-family: 'Roboto', 'Medium';
+    font-size: 40px;
+    padding-top: 45px;
+    padding-left: 195px
+}
+
+.container-fluida {
+    padding-left: 135px;
+    margin-left: 135px
+}
+
+.shadow {
+    width: 739px;
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+.shadow h4 {
+    font-family: 'Muli', 'Bold';
+    font-size: 17px;
+    color: #19345E;
+}
+
+.shadow h6 {
+    font-size: 15px;
+    color: #ACACAC;
+}
+
+.shadow hr {
+    width: 50%;
+}
+
+.shadow p {
+    font-family: 'SF Compact Display', 'Regular';
+    font-size: 14px;
+}
+
+.border-top {
+    background-color: #19345E;
+}
+
+.my-4 {
+    margin-top: 10.5rem!important;
+    margin-bottom: -16.5rem!important;
+}
+
+.footer {
+    width: 45%;
+    padding-left: 150px;
+}
+
+.border-top .footer img {
+    width: 110px;
+    height: 50px;
+}
+
+.nav p {
+    font-family: 'SF Compact Display', 'Semibold';
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.border-top .nav {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 25%;
+    padding-bottom: 9px;
+}
+
+.border-top .nav ul {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    padding-left: 110px;
+}
+
+.vertikal {
+    width: 0px; 
+    height: 78px; 
+    border: 1px #FFFFFF solid;
+}
+
+.nav .col {
+    font-family: 'SF Compact Display', 'Semibold';
+    font-size: 14px;
+    color: #FFFFFF;
+    width: 20%;
+}
+
+.border-top .nav .mb-0 {
+    width: 100%;
+    padding-left: 100px;
+    padding-bottom: 20px;
+    text-align: center;
+}
